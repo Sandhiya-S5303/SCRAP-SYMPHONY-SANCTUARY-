@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+  <title>Message submit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+
+
+
+<body>
+  <link rel="stylesheet" href="./submit-style.css" />
+  <div>
+    <link href="./submit.css" rel="stylesheet" />
+
+    <div class="submit-container">
+      <div class="submit-submit">
+        <div class="submit-frame"></div>
+        <img src="publics/external/rectangle9546614-jt24-200h.png" alt="Rectangle9546614" class="submit-rectangle954" />
+        <img src="publics/external/scrap3removebgpreview756614-fb4-200h.png" alt="Scrap3removebgpreview756614"
+          class="submit-scrap3removebgpreview75" />
+        <span class="submit-text"><span>Scrap Symphony Sanctuary</span></span>
+        <span class="submit-text02">
+          <a href="index.html">Home</a>&nbsp; &nbsp; &nbsp;
+          <a href="index.html">Services</a>&nbsp; &nbsp;&nbsp;
+          <a href="index.html">About Us</a>&nbsp; &nbsp; &nbsp;
+          <a href="index.html">Contact Us</a>
+        </span>
+        <span class="submit-text04"><span>Made For India</span></span>
+        <div class="submit-frame427319655">
+          <div class="submit-frame427319654">
+            <div class="submit-group36">
+              <img src="publics/external/vector6614-mrnp.svg" alt="Vector6614" class="submit-vector" />
+              <img src="publics/external/vector6614-hulc.svg" alt="Vector6614" class="submit-vector01" />
+            </div>
+            <div class="submit-frame427319653">
+              <span class="submit-text06">
+                <span>Message sent Successfully !!</span>
+              </span>
+              <span class="submit-text08">
+                <span>We will contact you soon and solve your queries</span>
+              </span>
+            </div>
+            <span class="submit-text10"><span>Thank you !</span></span>
+            <span class="submit-text12">
+              <span class="submit-text13">
+                If you want to continue, go back to
+              </span>
+              <span class="submit-text14"></span>
+              <a href="index.html"><span><b>Home page</b></span></a>
+            </span>
+          </div>
+        </div>
+        <img src="publics/external/rectangle126614-lelk-200h.png" alt="Rectangle126614" class="submit-rectangle12" />
+        <span class="submit-text16">
+          <span>Terms &amp; condition || Privacy Policy</span>
+        </span>
+        <span class="submit-text18">
+          <span>© SCRAP SYMPHONY SANCTUARY. All Rights Reserved.</span>
+        </span>
+        <div class="submit-group2">
+          <img src="publics/external/vector6615-3wkn.svg" alt="Vector6615" class="submit-vector02" />
+          <img src="publics/external/vector6615-kxg.svg" alt="Vector6615" class="submit-vector03" />
+          <img src="publics/external/vector6615-6oim.svg" alt="Vector6615" class="submit-vector04" />
+          <img src="publics/external/vector6615-0bla.svg" alt="Vector6615" class="submit-vector05" />
+          <img src="publics/external/vector6615-i5f.svg" alt="Vector6615" class="submit-vector06" />
+          <img src="publics/external/vector6615-ixni.svg" alt="Vector6615" class="submit-vector07" />
+          <img src="publics/external/vector6615-ttu9.svg" alt="Vector6615" class="submit-vector08" />
+          <img src="publics/external/vector6615-d82m.svg" alt="Vector6615" class="submit-vector09" />
+          <img src="publics/external/vector6615-luu5.svg" alt="Vector6615" class="submit-vector10" />
+          <img src="publics/external/vector6615-9aw.svg" alt="Vector6615" class="submit-vector11" />
+          <img src="publics/external/vector6615-fwax.svg" alt="Vector6615" class="submit-vector12" />
+          <img src="publics/external/vector6615-nrhh.svg" alt="Vector6615" class="submit-vector13" />
+          <img src="publics/external/vector6615-ekdc.svg" alt="Vector6615" class="submit-vector14" />
+          <img src="publics/external/vector6615-j6vk.svg" alt="Vector6615" class="submit-vector15" />
+          <img src="publics/external/vector6615-usbk.svg" alt="Vector6615" class="submit-vector16" />
+          <img src="publics/external/vector6615-gv7c.svg" alt="Vector6615" class="submit-vector17" />
+          <img src="publics/external/vector6615-fneu.svg" alt="Vector6615" class="submit-vector18" />
+          <img src="publics/external/vector6615-brus.svg" alt="Vector6615" class="submit-vector19" />
+          <img src="publics/external/vector6615-srbc.svg" alt="Vector6615" class="submit-vector20" />
+          <img src="publics/external/vector6615-aa8a.svg" alt="Vector6615" class="submit-vector21" />
+          <img src="publics/external/vector6615-963h.svg" alt="Vector6615" class="submit-vector22" />
+          <img src="publics/external/vector6615-jxep.svg" alt="Vector6615" class="submit-vector23" />
+          <img src="publics/external/vector6615-0po.svg" alt="Vector6615" class="submit-vector24" />
+          <img src="publics/external/vector6615-g5rq.svg" alt="Vector6615" class="submit-vector25" />
+          <img src="publics/external/vector6615-y72r.svg" alt="Vector6615" class="submit-vector26" />
+          <img src="publics/external/vector6615-mijg.svg" alt="Vector6615" class="submit-vector27" />
+          <img src="publics/external/vector6615-63jg.svg" alt="Vector6615" class="submit-vector28" />
+          <img src="publics/external/vector6615-4fjb.svg" alt="Vector6615" class="submit-vector29" />
+          <img src="publics/external/vector6615-5qep.svg" alt="Vector6615" class="submit-vector30" />
+          <img src="publics/external/vector6615-ji4.svg" alt="Vector6615" class="submit-vector31" />
+          <img src="publics/external/vector6615-k9pm.svg" alt="Vector6615" class="submit-vector32" />
+          <img src="publics/external/vector6615-x0mm.svg" alt="Vector6615" class="submit-vector33" />
+          <img src="publics/external/vector6615-tqso.svg" alt="Vector6615" class="submit-vector34" />
+          <img src="publics/external/vector6615-fuob.svg" alt="Vector6615" class="submit-vector35" />
+          <img src="publics/external/vector6615-l0w9.svg" alt="Vector6615" class="submit-vector36" />
+          <img src="publics/external/vector6615-ji3.svg" alt="Vector6615" class="submit-vector37" />
+          <img src="publics/external/vector6615-1gts.svg" alt="Vector6615" class="submit-vector38" />
+          <img src="publics/external/vector6615-tes.svg" alt="Vector6615" class="submit-vector39" />
+          <img src="publics/external/vector6615-o7f.svg" alt="Vector6615" class="submit-vector40" />
+          <img src="publics/external/vector6615-1mrr.svg" alt="Vector6615" class="submit-vector41" />
+          <img src="publics/external/vector6615-rf1e.svg" alt="Vector6615" class="submit-vector42" />
+          <img src="publics/external/vector6615-r31.svg" alt="Vector6615" class="submit-vector43" />
+          <img src="publics/external/vector6615-l1e.svg" alt="Vector6615" class="submit-vector44" />
+          <img src="publics/external/vector6615-01w9.svg" alt="Vector6615" class="submit-vector45" />
+          <img src="publics/external/vector6615-scs.svg" alt="Vector6615" class="submit-vector46" />
+          <img src="publics/external/vector6615-8wvg.svg" alt="Vector6615" class="submit-vector47" />
+          <img src="publics/external/vector6615-96dn.svg" alt="Vector6615" class="submit-vector48" />
+          <img src="publics/external/vector6615-cncq.svg" alt="Vector6615" class="submit-vector49" />
+          <img src="publics/external/vector6615-ofap.svg" alt="Vector6615" class="submit-vector50" />
+          <img src="publics/external/vector6615-61tr.svg" alt="Vector6615" class="submit-vector51" />
+          <img src="publics/external/vector6615-lyo6.svg" alt="Vector6615" class="submit-vector52" />
+          <img src="publics/external/vector6615-en0p.svg" alt="Vector6615" class="submit-vector53" />
+          <img src="publics/external/vector6615-6eqy.svg" alt="Vector6615" class="submit-vector54" />
+          <img src="publics/external/vector6615-gjw.svg" alt="Vector6615" class="submit-vector55" />
+          <img src="publics/external/vector6615-dobjr.svg" alt="Vector6615" class="submit-vector56" />
+        </div>
+        <div class="submit-maskgroup">
+          <img src="publics/external/ellipse146614-7d9-200h.png" alt="Ellipse146614" class="submit-ellipse14" />
+          <img src="publics/external/iso60x6016614-ymr-200h.png" alt="ISO60x6016614" class="submit-iso60x601" />
+        </div>
+        <img src="publics/external/iso60x6016614-lnbm-200h.png" alt="ISO60x6016614" class="submit-iso60x6011" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

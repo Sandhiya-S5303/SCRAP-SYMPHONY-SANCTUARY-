@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+  <title>Scrap Symphony Sanctuary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+
+<body>
+  <link rel="stylesheet" href="./style.css" />
+  <div>
+    <link href="./index.css" rel="stylesheet" />
+
+    <div class="s3-home-container">
+      <div class="s3-home-s3-home">
+        <img src="public/external/rectangle9555984-twaj-800h.png" alt="Rectangle9555984" class="s3-home-rectangle955" />
+        <div class="s3-home-frame"></div>
+        <img src="public/external/rectangle9545154-c2y-200h.png" alt="Rectangle9545154" class="s3-home-rectangle954" />
+        <img src="public/external/scrap3removebgpreview754994-iruj-200h.png" alt="Scrap3removebgpreview754994"
+          class="s3-home-scrap3removebgpreview75" />
+        <span class="s3-home-text">Scrap Symphony Sanctuary</span>
+        <span class="s3-home-text001">
+          <a href="index.html">Home</a>&nbsp; &nbsp; &nbsp;
+          <a href="#services">Services</a>&nbsp; &nbsp;&nbsp;
+          <a href="#about">About Us</a>&nbsp; &nbsp; &nbsp;
+          <a href="#contact">Contact Us</a>
+        </span>
+        <span class="s3-home-text002">
+          <span>
+            <span>WELCOME TO THE WORLD OF</span>
+            <br />
+            <span>TRANSFORMATION...</span>
+            <br />
+            <span></span>
+          </span>
+        </span>
+        <span class="s3-home-text009">
+          <span>SCRAP SYMPHONY SANCTUARY</span>
+        </span>
+        <img src="public/external/scrap2removebgpreview15044-nfwd-400h.png" alt="Scrap2removebgpreview15044"
+          class="s3-home-scrap2removebgpreview1" />
+        <img src="public/external/rectangle9555164-m4z-800h.png" alt="Rectangle9555164" class="s3-home-rectangle9551" />
+        <span class="s3-home-text011" id="services"><span>Our Services</span></span>
+        <span class="s3-home-text013" id="about"><span>About Us</span></span>
+        <span class="s3-home-text015">
+          <span class="s3-home-text016">Welcome to</span>
+          <span class="s3-home-text017">Scrap Symphony Sanctuary</span>
+          <span>, a holistic platform for sustainable living!</span>
+          <br />
+          <span>Our</span>
+          <span>
+            platform comprises three unique initiatives designed to promote
+            eco-friendly practices and community engagement.Engage with
+          </span>
+          <br />
+          <span>our&nbsp;</span>
+          <span>
+            Eco-Friendly Donations initiative, where you can donate a variety
+            of items, both old and new, to support charitable causes and build
+          </span>
+          <br />
+          <span>
+            a community centered on generosity. Explore the Creative
+            Scrapyard, our innovative e-commerce site facilitating the buying
+            and selling
+          </span>
+          <br />
+          <span>
+            of scrap items, fostering a circular economy, and redefining waste
+            as valuable resources. Simplify waste management through Eco-Clean
+            Waste Management, where scheduling pickups for different types of
+            waste not only keeps your surroundings clean but also lets you
+          </span>
+          <br />
+          <span>
+            earn rewards for your eco-conscious efforts. Join us in creating a
+            symphony of positive change, where sustainability, community, and
+            responsible living harmonize at Scrap Symphony Sanctuary.
+          </span>
+        </span>
+        <span class="s3-home-text031">
+          <span>
+            Scrap Symphony Sanctuary, where our holistic platform is dedicated
+            to fostering eco-friendly practices and building a community
+            centered on positive change. At the core of our mission are three
+            distinct initiatives designed to redefine the way we perceive
+            waste and contribute to a more sustainable lifestyle.
+          </span>
+        </span>
+        <span class="s3-home-text033">
+          <span>Eco-Friendly Donations : Giving with Purpose</span>
+        </span>
+        <span class="s3-home-text035">
+          <span>
+            Our Eco-Friendly Donations initiative invites you to be part of a
+            community that values generosity and purposeful giving. Whether
+            it's old treasures you no longer need or brand-new contributions,
+            your donations support charitable causes, creating a symphony of
+            positive impact. Join us in building a community where every act
+            of giving resonates, making a real difference in the lives of
+            those in need.
+          </span>
+        </span>
+        <span class="s3-home-text037">
+          <span>Creative Scrapyard : Transforming Waste into Resources</span>
+        </span>
+        <span class="s3-home-text039">
+          <span>
+            Dive into the Creative Scrapyard, an innovative e-commerce site
+            that goes beyond conventional boundaries. Here, the buying and
+            selling of scrap items transcend commerce, fostering a circular
+            economy that transforms waste into valuable resources. Join us in
+            reshaping the narrative around waste, promoting responsible
+            consumption, and embracing a future where every discarded item has
+            the potential for a new life.
+          </span>
+        </span>
+        <span class="s3-home-text041">
+          <span>
+            Eco-Clean Waste Management : Streamlining Responsibility
+          </span>
+        </span>
+        <span class="s3-home-text043">
+          <span>
+            Simplify waste management with Eco-Clean Waste Management, where
+            responsible disposal meets tangible rewards. By scheduling pickups
+            for different types of waste, you not only contribute to a cleaner
+            environment but also earn rewards for your eco-conscious efforts.
+            It's a simple yet impactful way to align your actions with a
+            sustainable lifestyle.
+          </span>
+        </span>
+        <span class="s3-home-text045">
+          <span>
+            At Scrap Symphony Sanctuary, we invite you to join the symphony of
+            positive change. Our platform harmonizes sustainability,
+            community, and responsible living, creating a space where each
+            individual action contributes to a more eco-friendly and
+            compassionate world. Embrace the journey with us, as we redefine
+            waste, promote responsible consumption, and build a future where
+            sustainability is not just a choice but a way of life. Together,
+            let's compose a lasting symphony of positive change.
+          </span>
+        </span>
+        <img src="public/external/rectangle9605844-v84o-1000h.png" alt="Rectangle9605844"
+          class="s3-home-rectangle960" />
+        <span class="s3-home-text047" id="contact"><span>Contact Us</span></span>
+
+        <form action="contact.php" method="post">
+          <div class="s3-home-contact-form2">
+            <div class="s3-home-group61">
+              <div class="s3-home-first-name">
+                <span class="s3-home-text049">
+                  <span class="s3-home-text050">First Name*</span>
+                  <input type="text" id="first-name-input" name="first_name" class="s3-home-rectangle" required>
+                </span>
+              </div>
+
+              <div class="s3-home-last-name">
+                <span class="s3-home-text051"><span>Last Name</span></span>
+                <input type="text" id="last-name-input" name="last_name" class="s3-home-rectangle1">
+              </div>
+
+              <div class="s3-home-phone-number">
+                <span class="s3-home-text053">
+                  <span class="s3-home-text054">Phone Number*</span>
+                  <input type="tel" id="phone-input" name="phone_number" class="s3-home-rectangle1" required>
+
+                </span>
+                <div>
+                  <div class="s3-home-frame244"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="s3-home-message">
+              <span class="s3-home-text055">
+                <span class="s3-home-text056">Message*</span>
+                <textarea id="message-input" name="message" class="s3-home-rectangle1-1" required></textarea>
+              </span>
+            </div>
+
+
+            <button class="s3-home-button" type="reset">
+              <span class="s3-home-text057"><span>Cancel</span></span>
+            </button>
+
+            <button class="s3-home-button1" type="submit">
+              <span class="s3-home-text059">Send Message</span>
+            </button>
+
+            <div class="s3-home-phone-number1">
+              <span class="s3-home-text060">
+                <span class="s3-home-text061">E-Mail*</span>
+                <input type="email" id="email-input" name="email" class="s3-home-rectangle4" required>
+              </span>
+            </div>
+          </div>
+
+          <span class="s3-home-text062">
+            <span>Fill this form , Our team will reach you out..</span>
+          </span>
+
+        </form>
+
+
+
+
+        <img src="public/external/rectangle9625844-aj5p-200w.png" alt="Rectangle9625844" class="s3-home-rectangle962" />
+        <img src="public/external/rectangle9615844-cp9u-700w.png" alt="Rectangle9615844" class="s3-home-rectangle961" />
+        <img src="public/external/rectangle9635844-dif-200h.png" alt="Rectangle9635844" class="s3-home-rectangle963" />
+        <span class="s3-home-text064">
+          <span>+91 8946021455 | 9150189858</span>
+        </span>
+        <span class="s3-home-text066"><span>Info</span></span>
+        <span class="s3-home-text068">
+          <span>
+            sacithrank.cse2020@citchennai.net sandhiyas.cse2020@citchennai.net
+          </span>
+        </span>
+        <span class="s3-home-text070"><span>10.00 am to 10.00 pm</span></span>
+        <span class="s3-home-text072"><span>Made For India</span></span>
+        <div class="s3-home-group2">
+          <img src="public/external/vector4994-ii5c.svg" alt="Vector4994" class="s3-home-vector" />
+          <img src="public/external/vector4994-vcb.svg" alt="Vector4994" class="s3-home-vector01" />
+          <img src="public/external/vector4994-0v2j.svg" alt="Vector4994" class="s3-home-vector02" />
+          <img src="public/external/vector4994-jeo6.svg" alt="Vector4994" class="s3-home-vector03" />
+          <img src="public/external/vector4994-93c.svg" alt="Vector4994" class="s3-home-vector04" />
+          <img src="public/external/vector4994-ikco.svg" alt="Vector4994" class="s3-home-vector05" />
+          <img src="public/external/vector4994-rzfc.svg" alt="Vector4994" class="s3-home-vector06" />
+          <img src="public/external/vector4994-d6or.svg" alt="Vector4994" class="s3-home-vector07" />
+          <img src="public/external/vector4994-op6c.svg" alt="Vector4994" class="s3-home-vector08" />
+          <img src="public/external/vector4994-8th8.svg" alt="Vector4994" class="s3-home-vector09" />
+          <img src="public/external/vector4994-srnd.svg" alt="Vector4994" class="s3-home-vector10" />
+          <img src="public/external/vector4994-2qk5.svg" alt="Vector4994" class="s3-home-vector11" />
+          <img src="public/external/vector4994-tj59.svg" alt="Vector4994" class="s3-home-vector12" />
+          <img src="public/external/vector4994-tlo.svg" alt="Vector4994" class="s3-home-vector13" />
+          <img src="public/external/vector4994-mt6n.svg" alt="Vector4994" class="s3-home-vector14" />
+          <img src="public/external/vector4994-z4np.svg" alt="Vector4994" class="s3-home-vector15" />
+          <img src="public/external/vector4994-hfsf.svg" alt="Vector4994" class="s3-home-vector16" />
+          <img src="public/external/vector4994-k8s.svg" alt="Vector4994" class="s3-home-vector17" />
+          <img src="public/external/vector4994-rurj.svg" alt="Vector4994" class="s3-home-vector18" />
+          <img src="public/external/vector4994-zbl9.svg" alt="Vector4994" class="s3-home-vector19" />
+          <img src="public/external/vector4994-86md.svg" alt="Vector4994" class="s3-home-vector20" />
+          <img src="public/external/vector4994-ncb.svg" alt="Vector4994" class="s3-home-vector21" />
+          <img src="public/external/vector4994-iif7.svg" alt="Vector4994" class="s3-home-vector22" />
+          <img src="public/external/vector4994-5oi7.svg" alt="Vector4994" class="s3-home-vector23" />
+          <img src="public/external/vector4994-j6f.svg" alt="Vector4994" class="s3-home-vector24" />
+          <img src="public/external/vector4994-x3y.svg" alt="Vector4994" class="s3-home-vector25" />
+          <img src="public/external/vector4994-xl6k.svg" alt="Vector4994" class="s3-home-vector26" />
+          <img src="public/external/vector4994-gdqp.svg" alt="Vector4994" class="s3-home-vector27" />
+          <img src="public/external/vector4994-qut8.svg" alt="Vector4994" class="s3-home-vector28" />
+          <img src="public/external/vector4994-1w1j.svg" alt="Vector4994" class="s3-home-vector29" />
+          <img src="public/external/vector4994-jh9l.svg" alt="Vector4994" class="s3-home-vector30" />
+          <img src="public/external/vector4994-u6fh.svg" alt="Vector4994" class="s3-home-vector31" />
+          <img src="public/external/vector4994-5ok.svg" alt="Vector4994" class="s3-home-vector32" />
+          <img src="public/external/vector4994-6ngs.svg" alt="Vector4994" class="s3-home-vector33" />
+          <img src="public/external/vector4994-4jga.svg" alt="Vector4994" class="s3-home-vector34" />
+          <img src="public/external/vector4994-ckbh.svg" alt="Vector4994" class="s3-home-vector35" />
+          <img src="public/external/vector4994-pi.svg" alt="Vector4994" class="s3-home-vector36" />
+          <img src="public/external/vector4994-iiy.svg" alt="Vector4994" class="s3-home-vector37" />
+          <img src="public/external/vector4994-u54j.svg" alt="Vector4994" class="s3-home-vector38" />
+          <img src="public/external/vector4994-6ag6.svg" alt="Vector4994" class="s3-home-vector39" />
+          <img src="public/external/vector4994-p8f.svg" alt="Vector4994" class="s3-home-vector40" />
+          <img src="public/external/vector4994-u3k.svg" alt="Vector4994" class="s3-home-vector41" />
+          <img src="public/external/vector4994-stn2.svg" alt="Vector4994" class="s3-home-vector42" />
+          <img src="public/external/vector4994-1gm6.svg" alt="Vector4994" class="s3-home-vector43" />
+          <img src="public/external/vector4994-hf7.svg" alt="Vector4994" class="s3-home-vector44" />
+          <img src="public/external/vector4994-7nnu.svg" alt="Vector4994" class="s3-home-vector45" />
+          <img src="public/external/vector4994-4fsb.svg" alt="Vector4994" class="s3-home-vector46" />
+          <img src="public/external/vector4994-bnpk.svg" alt="Vector4994" class="s3-home-vector47" />
+          <img src="public/external/vector4994-jlxl.svg" alt="Vector4994" class="s3-home-vector48" />
+          <img src="public/external/vector4994-cig.svg" alt="Vector4994" class="s3-home-vector49" />
+          <img src="public/external/vector4994-bvk5.svg" alt="Vector4994" class="s3-home-vector50" />
+          <img src="public/external/vector4994-ycpb.svg" alt="Vector4994" class="s3-home-vector51" />
+          <img src="public/external/vector4994-5lfz.svg" alt="Vector4994" class="s3-home-vector52" />
+          <img src="public/external/vector4994-zg5l.svg" alt="Vector4994" class="s3-home-vector53" />
+          <img src="public/external/vector4994-x282.svg" alt="Vector4994" class="s3-home-vector54" />
+        </div>
+        <div class="s3-home-rectangle956">
+          <img src="public/external/rectangle9565164-hr2-500w.png" alt="Rectangle9565164"
+            class="s3-home-rectangle9561" />
+          <span class="s3-home-text074">
+            <span>Eco-Friendly Donations</span>
+          </span>
+          <img src="public/external/image285164-ltg-300h.png" alt="image285164" class="s3-home-image28" />
+          <span class="s3-home-text076">
+            <span>
+              Participate in our Eco-Friendly Donations initiative. Donate
+              various items, both old and new, to support charitable causes.
+              Be part of a community that values generosity and environmental
+              responsibility.
+            </span>
+          </span>
+          <button class="s3-home-button2">
+            <a href="http://localhost/eco-friendly%20donations/" target="_blank"><span class="s3-home-text078">Proceed
+                to
+                Donate</span></a>
+          </button>
+        </div>
+        <div class="s3-home-rectangle9562">
+          <img src="public/external/rectangle956i591-0uy-500w.png" alt="Rectangle956I591"
+            class="s3-home-rectangle9563" />
+          <span class="s3-home-text079"><span>Creative ScrapYard</span></span>
+          <span class="s3-home-text081">
+            <span>
+              <span>Explore our Creative Scrapyard, an innovative</span>
+              <br />
+              <span>
+                e-commerce platform.Buy / sell scrap items, promoting a
+                circular economy. Join us in transforming waste into valuable
+                resources while contributing to a sustainable future.
+              </span>
+            </span>
+          </span>
+          <button class="s3-home-button3">
+            <span class="s3-home-text086">
+              <a href="http://localhost/creativescrap/" target="_blank"><span>Proceed to Buy/Sell</span></a>
+            </span>
+          </button>
+        </div>
+        <div class="s3-home-rectangle9564">
+          <img src="public/external/rectangle956i591-w3rq-500w.png" alt="Rectangle956I591"
+            class="s3-home-rectangle9565" />
+          <span class="s3-home-text088">
+            <span>Eco-Clean Waste Management</span>
+          </span>
+          <span class="s3-home-text090">
+            <span>
+              Simplify waste disposal with Eco-Clean Waste Management.
+              Schedule pickups for different types of waste &amp; earn rewards
+              for your contribution. Together, let's manage waste responsibly
+              &amp; earn rewards while keeping our planet clean.
+            </span>
+          </span>
+          <button class="s3-home-button4">
+            <span class="s3-home-text092">
+              <a href="http://localhost/eco-clean%20waste%20management/" target="_blank"><span>Proceed to
+                  Disposal</span></a>
+            </span>
+          </button>
+        </div>
+        <div class="s3-home-footer">
+          <img src="public/external/rectangle35844-t58-300h.png" alt="Rectangle35844" class="s3-home-rectangle3" />
+          <div class="s3-home-frame16">
+            <span class="s3-home-text094">
+              <span>
+                SCRAP SYMPHONY SANCTUARY, your premier destination for trading
+                scrap materials and a platform to donate and manage waste
+                responsibly. Embrace a circular economy, contribute to
+                charitable causes by donating reusable items, and explore
+                green solutions with our community of startups and
+                entrepreneurs for a sustainable future.
+              </span>
+            </span>
+          </div>
+          <div class="s3-home-frame35">
+            <span class="s3-home-text096"><span>Pages</span></span>
+            <div class="s3-home-frame39">
+              <span class="s3-home-text098"><span>Home</span></span>
+              <span class="s3-home-text100"><span>Services</span></span>
+              <span class="s3-home-text102"><span>About Us</span></span>
+              <span class="s3-home-text104"><span>Contact Us</span></span>
+            </div>
+          </div>
+          <img src="public/external/socialmedia5844-bih7.svg" alt="socialmedia5844" class="s3-home-socialmedia" />
+          <img src="public/external/rectangle125844-242k-200h.png" alt="Rectangle125844" class="s3-home-rectangle12" />
+          <span class="s3-home-text106">
+            <span>© SCRAP SYMPHONY SANCTUARY. All Rights Reserved.</span>
+          </span>
+          <span class="s3-home-text108">
+            <span>Terms &amp; condition || Privacy Policy</span>
+          </span>
+        </div>
+
+        <!--Developed black box-->
+        <div class="s3-home-rectangle959">
+          <img src="public/external/rectangle956i591-eppq-400h.png" alt="Rectangle956I591"
+            class="s3-home-rectangle9566" />
+          <img src="public/external/image28i591-kjf-1000w.png" alt="image28I591" class="s3-home-image281" />
+        </div>
+        <img src="public/external/svg5914-cpu.svg" alt="SVG5914" class="s3-home-svg" />
+        <span class="s3-home-text110"><span>SACHITHRA.N.K</span></span>
+        <span class="s3-home-text112"><span>SANDHIYA.S</span></span>
+        <span class="s3-home-text114"><span>B.E - CSE Final Year</span></span>
+        <span class="s3-home-text116"><span>B.E - CSE Final Year</span></span>
+        <span class="s3-home-text118"><span>210420104135</span></span>
+        <span class="s3-home-text120"><span>210420104139</span></span>
+        <img src="public/external/svg5914-5r0k.svg" alt="SVG5914" class="s3-home-svg1" />
+        <span class="s3-home-text122"><span>Developed By</span></span>
+
+
+        <!--contact us icon-->
+        <img src="public/external/svg5914-6sc.svg" alt="SVG5914" class="s3-home-svg2" />
+        <div class="s3-home-xmlid146">
+          <img src="public/external/xmlid4265844-idb.svg" alt="XMLID4265844" class="s3-home-xmlid426" />
+        </div>
+        <img src="public/external/vector5844-yxgv.svg" alt="Vector5844" class="s3-home-vector55" />
+
+
+        <!--About ud icon-->
+        <div class="s3-home-layer4">
+          <img src="public/external/vector5834-1j3.svg" alt="Vector5834" class="s3-home-vector56" />
+        </div>
+        <img src="public/external/vector5834-mt2k.svg" alt="Vector5834" class="s3-home-vector57" />
+        <img src="public/external/vector5834-o1ag.svg" alt="Vector5834" class="s3-home-vector58" />
+
+        <!--service image-->
+        <img src="public/external/image245164-qz3mf-300h.png" alt="image245164" class="s3-home-image24" />
+        <img src="public/external/image385394-c3om-300h.png" alt="image385394" class="s3-home-image38" />
+
+        <!--sachithra linkedin-->
+        <div class="s3-home-providerslist">
+          <div class="s3-home-linkedin">
+            <a
+              href="https://www.linkedin.com/in/sachithra-nesamani-77a35a1ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <div class="s3-home-linkedin2">
+                <img src="public/external/rectangle26074-g5y7.svg" alt="Rectangle26074" class="s3-home-rectangle21" />
+                <img src="public/external/shape6074-q507.svg" alt="Shape6074" class="s3-home-shape1" />
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <!--footer icon-->
+        <div class="s3-home-maskgroup">
+          <img src="public/external/ellipse145844-6o5o-200h.png" alt="Ellipse145844" class="s3-home-ellipse14" />
+          <img src="public/external/iso60x6015844-w0sj-200h.png" alt="ISO60x6015844" class="s3-home-iso60x601" />
+        </div>
+        <img src="public/external/iso60x6015844-sbk4-200w.png" alt="ISO60x6015844" class="s3-home-iso60x6011" />
+
+        <!--sandhiya linked in-->
+        <div class="s3-home-linkedin1">
+          <div class="s3-home-providerslist1">
+            <a href="https://www.linkedin.com/in/sandhiya5303/">
+              <div class="s3-home-linkedin2">
+                <img src="public/external/rectangle26074-g5y7.svg" alt="Rectangle26074" class="s3-home-rectangle21" />
+                <img src="public/external/shape6074-q507.svg" alt="Shape6074" class="s3-home-shape1" />
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <!--Sandhiya github-->
+        <a href="https://github.com/Sandhiya-S5303"><img src="public/external/vector6074-dpsa.svg" alt="Vector6074"
+            class="s3-home-vector59" /></a>
+
+
+
+
+        <!--Sachithra github-->
+        <a href="https://github.com/SachithraNesamani"><img src="public/external/vector6074-dpsa.svg" alt="Vector6074"
+            class="s3-home-vector60" /></a>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
